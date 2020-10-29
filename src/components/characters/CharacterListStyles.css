@@ -3,7 +3,8 @@
   grid-template-columns: repeat(4, 1fr);
 
   list-style-type: center;
-  
+  align-items: center;
+
   img {
   height: auto;
   width: 275px;
