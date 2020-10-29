@@ -1,0 +1,17 @@
+.CharacterList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  list-style-type: center;
+  
+  img {
+  height: auto;
+  width: 275px;
+  align-content: center;
+  }
+
+  li {
+  list-style: none;  
+  text-align: center;
+  }
+}

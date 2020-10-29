@@ -1,0 +1,10 @@
+.lightTheme {
+  background-color: skyblue;
+  color:black;
+}
+
+.darkTheme {
+  background-color: black;
+  color: rgb(255, 94, 175);
+}
+  
