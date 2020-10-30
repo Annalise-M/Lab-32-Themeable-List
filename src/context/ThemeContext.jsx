@@ -12,7 +12,6 @@ export const ThemeProvider = ({ children }) => {
       setThemeMode('darkTheme');
     if(themeMode === 'darkTheme')
       setThemeMode('lightTheme');
-    console.log(themeMode, 'wtfffffffffffffffffffff');
   };
   
   return (
