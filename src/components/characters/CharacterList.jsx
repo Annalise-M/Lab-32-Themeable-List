@@ -11,11 +11,9 @@ const CharacterList = () => {
   const { themeMode } = useThemePicker();
   
   const characterElements = characters.map(character => (
-    <>
-      <li key={character.char_id}>
-        <CharacterItem {...character} />
-      </li>
-    </>
+    <li key={character.char_id}>
+      <CharacterItem {...character} />
+    </li>
   ));
 
   return (
